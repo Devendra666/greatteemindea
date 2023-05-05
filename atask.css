@@ -1,0 +1,317 @@
+.text {
+	opacity: 0;
+	transform: translatey(60px);
+	animation: moveup 0.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.text p{
+	opacity: 0;
+	transform: translatey(50px);
+	animation: moveup 1s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+.imgb img{
+	opacity: 0;
+	transform: translatex(90px);
+	animation: moveup 1s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.why1 h1{
+	opacity: 0;
+	transform: translatey(30px);
+	animation: moveup 2s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.in1 img{
+	opacity: 0;
+	transform: translatey(30px);
+	animation: moveup 2.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.in2 img{
+	opacity: 0;
+	transform: translatey(40px);
+	animation: moveup 3s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.in3 img{
+	opacity: 0;
+	transform: translatey(50px);
+	animation: moveup 3.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+.in4 img{
+	opacity: 0;
+	transform: translatey(60px);
+	animation: moveup 4s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+.tpk1{
+	opacity: 0;
+	transform: translatey(30px);
+	animation: moveup 4.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.tpk2{
+	opacity: 0;
+	transform: translatey(50px);
+	animation: moveup 5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.tpk3{
+	opacity: 0;
+	transform: translatey(60px);
+	animation: moveup 5.9s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+.tpk4{
+	opacity: 0;
+	transform: translatey(70px);
+	animation: moveup 6.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    investing animeion start */
+
+
+
+
+
+
+.body1 h1{
+	opacity: 0;
+	transform: translatey(60px);
+	animation: moveup 0.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.body1 p{
+	opacity: 0;
+	transform: translatey(50px);
+	animation: moveup 1s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+.img1 {
+	opacity: 0;
+	transform: translatex(90px);
+	animation: moveup 1s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+
+
+.servis h1 {
+	opacity: 0;
+	transform: translatey(30px);
+	animation: moveup 2.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+.servis p {
+	opacity: 0;
+	transform: translatey(50px);
+	animation: moveup 3s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+.coll1 {
+	opacity: 0;
+	transform: translatey(30px);
+	animation: moveup 4s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.coll2 {
+	opacity: 0;
+	transform: translatey(40px);
+	animation: moveup 4.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.coll3 {
+	opacity: 0;
+	transform: translatey(50px);
+	animation: moveup 5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+
+
+
+
+
+
+/*primiam kai animesion start*/
+
+
+
+
+
+
+.{
+	opacity: 0;
+	transform: translatey(30px);
+	animation: moveup 0.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+

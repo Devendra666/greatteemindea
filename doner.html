@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>doner</title>
+	<style type="text/css">
+		*{
+	margin: 0px;
+	padding: 0px;
+}
+.men{
+		
+	height: 70px;
+	box-sizing: border-box;
+	background-color:#12bdb7;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.bodyc1{
+	background-color:red;
+}
+
+.men a{
+   text-decoration: none;
+   margin-left: 630px;   
+   display: inline;
+   font-size: 25px;
+   color:white ;
+   border-radius: 30px 0px 30px 30px;
+   padding-left: 40px;
+   padding-right: 50px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+}
+.men a:hover{
+	color: red;
+	border-radius: 20px 0px 20px 20px;
+	padding-left: 50px;
+	padding-right: 60px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.men1{
+	margin-left: 650px;
+	padding-top: 20px;
+}
+
+.men img{
+	height: 60px;
+	width: 160px;
+	float: left;
+	padding-left: 95px;
+	padding-top: 10px;
+	
+}
+.box{
+	
+	height:600px;
+	box-sizing: border-box;
+}
+
+.text{
+	height: 600px;
+	width: 39%;
+	float: left;
+	margin-left: 150px;
+	box-sizing: border-box;
+
+
+	
+	
+}
+.bphoto{
+	height: 490px;
+	width: 490px;
+	
+	border: 30px solid #12bdb7;
+	margin-top: 130px;
+	border-radius: 50%;
+	box-sizing: border-box;	
+	margin-left: 55%;
+
+}
+
+.bphoto img{
+	border-radius: 50%;
+	height: 400px;
+	width: 400px;
+	margin: 15px;
+	box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
+
+}
+
+h1{
+	color:#12bdb7;
+	font-size: 115px;
+}
+h2{
+	color: #feba4c;
+	font-size: 105px;
+}
+
+h3{
+	color: #12bdb7;
+	font-size: 36px;
+	background-color:#f2f5f5 ;
+	border-radius: 0px 30px 30px 0px;
+}
+p{
+	font-size: 20px;
+	color: gray;
+}
+a{
+	font-size: 25px;
+}
+.text img{
+	height: 40px;
+	width: 210px;
+	background-color:#12bdb7 ;
+	border-radius: 0px 30px 30px 0px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.info{
+	height: 350px;
+	background-color:#12bdb7;
+	margin-left: 165px;
+	margin-right: 165px;
+	box-sizing: border-box;
+}
+
+.donerimg{
+	height: 320px;
+	width: 280px;
+   float: left;
+	border-radius: 0px 0px 160px 160px;
+	margin-left: 100px;
+}
+.donerimg img{
+	height: 320px;
+	width: 280px;
+	border-radius: 0px 0px 160px 160px;
+
+}
+
+
+
+
+.donerinfo{
+	height: 300px;
+	width: 600px;
+	margin-left: 460px;
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
+
+}
+.donerinfo p{
+	font-size: 20;
+	color: white;
+}
+
+.donerinfo a{
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+	padding: 6px 60px;
+	border-radius: 30px;
+	color: white;
+}
+
+.donerinfo a:hover{
+	color: red;
+	background-color: white;
+	border-radius: 30px 0px 30px 30px;
+}
+
+
+
+.pvideo{
+	height: 400px;
+	width: 1200px;
+	margin-top: 10px;
+	margin-left:165px ;
+
+}
+
+.pvideo video{
+	height: 400px;
+	width: 1190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text h1{
+	opacity: 0;
+	transform: translatey(70px);
+	animation: moveup 0.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+.text h2{
+	opacity: 0;
+	transform: translatey(70px);
+	animation: moveup 1s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.text h3{
+	opacity: 0;
+	transform: translatey(70px);
+	animation: moveup 1.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.text p{
+	opacity: 0;
+	transform: translatex(70px);
+	animation: moveup 1.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.text img{
+	opacity: 0;
+	transform: translatey(70px);
+	animation: moveup 1.5s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.bphoto{
+	opacity: 0;
+	transform: translatex(170px);
+	animation: moveup 1s linear forwards;
+
+}
+@keyframes moveup{
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+	.men img{
+		margin-left: 0px;
+		padding-left: 50px;		
+	}
+
+	.bodyc1 .men img{
+		width: 140px;
+		padding-left: 20px;
+	}
+	.men1 a{
+		margin-left: 2px;
+		padding: 5px;
+		font-size: 20px;
+	}
+	.men1 a:first-child{
+		padding-left: 40px;
+	}
+
+
+	.men1 a:last-child{
+		margin-left: 0px;
+		font-size: 20px;
+		padding: 20px;
+	}
+
+
+	.box {
+		height: 350px;		
+	}
+	.text{
+		margin-left: 10px;
+		height: 350px;
+	}
+	.text h1{
+		font-size: 50px;
+	}
+	.text h2{
+		font-size: 40px;
+	}
+	.text h3{
+		font-size: 15px;
+	}
+	.text p{
+		font-size: 8px;
+	}
+	.text a{
+		font-size: 9px;
+	}
+	.text img{
+		height: 30px;
+		width: 120px;
+	}
+
+	.bphoto{
+		height:320px ;
+		width: 320px;
+		margin-left: 45%;
+	}
+	.bphoto img{
+		height: 230px;
+		width: 230px;
+	}
+
+	.info{
+		height: 320px;
+		width: 600px;
+	   background-color:#12bdb7;
+	   margin-left: 0px;
+	   box-sizing: border-box;
+
+	}
+	.donerimg{
+	   height: 320px;
+	   width: 100px;
+      float: left;
+	   border-radius: 0px 0px 160px 160px;
+	   margin-left: 30px;
+}
+   .donerimg img{
+	   height: 230px;
+	   width: 200px;
+	   border-radius: 0px 0px 160px 160px;
+
+}
+
+
+
+
+   .donerinfo{
+	   height: 300px;
+	   width: 300px;
+	   margin-left: 260px;
+
+}
+   .donerinfo p{
+	   font-size: 13px;
+	   color: white;
+
+}
+
+
+
+   .pvideo{
+	   height: 300px;
+	   width: 600px;
+	   margin-top: 0px;
+	   margin-left:0px ;
+
+}
+
+   .pvideo video{
+	   height: 300px;
+	   width: 600px;
+}
+
+
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="men">
+			<img src="D:\gptpic\glogo.png">
+
+			<div class="men1">
+			           
+			     <a href ="">Profile</a>
+			 </div>			
+		</div>
+		
+	</div>
+
+	<div class="box">
+		<div class="text">
+			<h1>It's Time</h1>
+			<h2>To Donation</h2>
+			<h3>Happiness Comes From your Action</h3><br>
+			<p>Please donate us so that we can continue our mission of helping the<br> poor & needy families.Jiska bhi donesion sabse jada hoga usi kai hatho sai hi sara pesa gareebo mai batbaya jayga. Thank you for donetion</p><br>
+
+			<a href="">www.great team india.com</a>
+			<br><br><br>
+			<img src="D:\gptpic/s2.png">
+
+			
+			
+		</div>
+
+		<div class="bphoto">
+			<img src="D:\gptpic/donesion.jpg">
+			
+		</div>
+
+	</div>
+
+
+	<div class="info">
+		<div class="donerimg">
+			<img src="D:\gptpic/cod.jpg">
+			
+		</div>
+
+
+		<div class="donerinfo">
+			<p style="color: red; font-size: 45px;">Devendra Singh</p>
+			<p style="font-size: 25px; color: darkblue;">Mahoba Uttar Pradesh</p>
+			<p style="color:darkblue;">Total Amaunt is 2000</p><br>
+			<p> Thank You For The Donation </p>
+			<p>appke es donation ka ham log sahi use karege and jinko bhi eski jada jarurat hogi
+			in peso sai un logo ki help ki jaygi. or in peso ka hisaabh kiataab video ke through esi website par uplod ki jaygi.  </p>
+			<p>And Thank You All Off You. Keep Support</p> <br><br>
+
+
+			<a href="file:///D:/payment.html">Donate us</a>
+			
+		</div>
+		
+		
+
+
+	</div>
+
+	<div class="pvideo">
+
+
+	    <video autoplay controls>
+
+		     <source src="" type="">		
+
+	    </video>
+	
+   </div>
+
+
+
+
+
+
+	
+
+
+
+
+</body>
+</html>
